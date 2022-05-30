@@ -2,7 +2,11 @@
 
 namespace App\OpenApi\Parameters;
 
-class ListCatsParameters extends ParameterFactory
+use GoldSpecDigital\ObjectOrientedOAS\Objects\Parameter;
+use GoldSpecDigital\ObjectOrientedOAS\Objects\Schema;
+use Vyuldashev\LaravelOpenApi\Factories\ParametersFactory;
+
+class ListCatsParameters extends ParametersFactory
 {
     public function build(): array
     {
