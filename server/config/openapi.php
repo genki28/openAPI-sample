@@ -25,6 +25,10 @@ return [
         ]
     ],
 
+    // 'security' => [
+    //     GoldSpecDigital\ObjectOrientedOAS\Objects\SecurityRequirement::create()->securityScheme('BearerToken'),
+    // ],
+
     // Route for exposing specification.
     // Leave uri null to disable.
     'route' => [
@@ -41,13 +45,13 @@ return [
 
     // Directories to use for locating OpenAPI object definitions.
     'locations' => [
-        'callbacks' => [
-            app_path('OpenApi/Callbacks'),
-        ],
+        // 'callbacks' => [
+        //     app_path('OpenApi/Callbacks'),
+        // ],
 
-        'request_bodies' => [
-            app_path('OpenApi/RequestBodies'),
-        ],
+        // 'request_bodies' => [
+        //     app_path('OpenApi/RequestBodies'),
+        // ],
 
         'responses' => [
             app_path('OpenApi/Responses'),

@@ -16,4 +16,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('cat', [CatController::class, 'index'])->name('cat.index');
-Route::post('cat', [CatController::class, 'create'])->name('cat.create');
