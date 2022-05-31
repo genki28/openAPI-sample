@@ -49,6 +49,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "generate-openapi": [
+            "@php artisan openapi:generate > ./dist/openapi.json"
         ]
     },
     "extra": {

@@ -7,7 +7,7 @@ use GoldSpecDigital\ObjectOrientedOAS\Objects\MediaType;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\RequestBody;
 use Vyuldashev\LaravelOpenApi\Factories\RequestBodyFactory;
 
-class ListCatsRequestBody extends RequestBodyFactory
+class CreateCatRequestBody extends RequestBodyFactory
 {
     public function build(): RequestBody
     {
